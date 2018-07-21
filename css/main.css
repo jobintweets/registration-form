@@ -1,0 +1,94 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../images/beach.jpg");
+    background-size: cover; 
+}
+#regform{
+    text-align: center;
+}
+fieldset{
+     border-radius: 10px;
+    border:1px solid blue;
+    opacity: .7;
+}
+#para{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 15px blue;
+    color:whitesmoke;
+}
+    #star{
+    color: red;
+    margin-left: 5px;
+}
+p label{
+    float:left;
+    font-weight: 700;
+    margin-right: 50%;
+}
+
+p label.error{
+    float:left;
+    color:red; 
+    margin-right: 10px;
+    margin-top:2px;
+    
+}
+.required{
+    width: 250px;
+    height:30px;
+    background-color: white;  
+    display: block;
+    border:1px solid blue;
+    border-radius:5px;
+}
+#btnsub{
+    width: 125px;
+    background-color:blue;
+    color:white;
+    margin-bottom: 3px;
+    border:1px solid blue;
+    font-weight: 700;
+    border-radius: 5px;
+    height:30px;
+}
+#btnsub:hover{
+    background-color: #7fff00;
+    border:2px solid #7fff00;
+}
+#formdiv{
+    opacity: .8; 
+    border-width: 10px;
+    height: 80%;
+   
+}
+#content{
+    opacity: .7;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border-width: 10px;
+}
+#dialog{
+    display: none;
+    background-color: white; 
+    border-radius:10px;
+}
+
+.ui-dialog,.ui-widget, .ui-widget-content, .ui-corner-all{
+    background-color: black;
+}
+
+.ui-dialog,.ui-widget, .ui-widget-content, .ui-corner-all, .foo, .ui-draggable, .ui-resizable {
+    /*background-image: url(../images/beach.jpg) !important;*/
+    border: 0px !important;
+    color:white !important;
+}
+form{
+   background-image: url(../images/beach.jpg);
+    background-size:cover;
+}
