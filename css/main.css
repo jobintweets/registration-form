@@ -83,12 +83,14 @@ p label.error{
     background-color: black;
 }
 
-.ui-dialog,.ui-widget, .ui-widget-content, .ui-corner-all, .foo, .ui-draggable, .ui-resizable {
+.ui-dialog{
     /*background-image: url(../images/beach.jpg) !important;*/
     border: 0px !important;
-    color:white !important;
+    color:black !important;
 }
 form{
    background-image: url(../images/beach.jpg);
     background-size:cover;
+    color:white;
 }
+
